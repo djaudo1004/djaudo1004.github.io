@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+/* 배너 */
+
+body{background-color: #fdffdf;}
+
+section.banner .imgbox{height: 100%; overflow: hidden;}
+section.banner{width: 100%; height: 100vh;   position: relative;}
+section.banner img{height: 100%; object-fit: cover;}
+
+section.banner .txt-box{color: white;
+    position: absolute; bottom: 80px; left: 118px; z-index: 10;}
+
+    section.banner .txt-box h2 span{background-color: #D03C0D; 
+    width: 130%; height: 40px;
+ left: 0%; bottom: -5px; position: absolute; z-index: -1;}
+
+
+#table,#phone{display: none;}
+
+/* ==== 섹션1 ======================================================================== */
+
+section.cont1{padding-top: 200px; width: 100%; background-color: #DDDFC2;}
+
+section.cont1 .cont1-1{position: relative;}
+
+section.cont1 .try{
+    position: absolute;
+    top: -192px;
+   
+    left: 0;
+    width: 50px;
+    height: 0;
+    margin-top: -8px;
+
+    border-top: 100px solid #beaba4;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+z-index: 10;}
+
+section.cont1 .img1{width: 60%; margin-left: auto; opacity: 0.8;}
+section.cont1 h4{position: absolute; bottom: -300px; left: 0;z-index: 3; line-height: 80px;}
+section.cont1 h4 span{font-size: 60px; font-weight: bold;}
+
+/* ===== 섹션2 =================================================================================== */
+
+section.cont2{background-color: #638d6f; margin-top: -10px;}
+section.cont2 .cont2-1{padding-top: 150px; padding-bottom: 150px;
+    position: relative; text-align: right; color: #fdffdf;}
+section.cont2 .cont2-1 .img1{width: 60%; margin-left: 0; opacity: 0.8;}
+section.cont2 .cont2-1 h4{position: absolute; bottom: -200px; right: 0;z-index: 3; line-height: 80px;}
+section.cont2 .cont2-1 h4 span{font-size: 54px; font-weight: bold;}
+
+/* ===== 섹션3 =================================================================================== */
+
+section.cont3{background-color: #2b4f37; margin-top: -10px;}
+section.cont3 .cont3-1{padding-top: 150px; padding-bottom: 600px;
+    position: relative; text-align: left; color: #fdffdf;}
+section.cont3 .cont3-1 .img1{width: 60%; margin-left: auto; opacity: 0.8;}
+section.cont3 .cont3-1 h4{position: absolute; bottom: 200px; left: 0;z-index: 3; line-height: 80px;}
+
+/* ===== 섹션4 =================================================================================== */
+section.cont4{background-color:#fdffdf; position: relative;}
+section.cont4 .img1{margin-top: -30px;}
+
+section.cont4 .cont4-1 h2{position: absolute; right: 250px; top: 120px; z-index: 1;}
+
+section.cont4 .cont4-1 .map-container{position: relative; margin-top: -150px;}
+section.cont4 .cont4-1 .map-container .img2{width: 100%; margin-top: 120px;}
+
+.map-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #2b4f37;
+  border-radius: 50%;
+  z-index: 4;
+  cursor: pointer;
+}
+
+/* 후광 애니메이션은 점에만 */
+.map-dot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 246, 117, 0.4);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 1.5s ease-out infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.uk{top: 35%; left: 50%;}
+.af{bottom: 40%; left: 50%;}
+.aus{right: 16%; bottom: 20%;}
+.us{left: 18%; top: 40%;}
+.bra{left: 30%; bottom: 28%;}
+.ch{right: 25%; top: 45%;}
+
+/* 애니메이션 효과 */
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.6);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.8);
+    opacity: 0;
+  }
+}
+
+.uk .info{position: absolute; top: -334px; left: 22px; width: 550px; color: #fdffdf; z-index: 6;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.af .info{position: absolute; top: -410px; left: 26px; width: 550px; color: #fdffdf;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.aus .info{position: absolute; top: -354px; right: 2px; width: 550px; color: #fdffdf;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.us .info{position: absolute; top: -350px; left: 0px; width: 550px; color: #fdffdf;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.bra .info{position: absolute; top: -350px; left: 0px; width: 550px; color: #fdffdf;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.ch .info{position: absolute; top: -410px; left: 26px; width: 550px; color: #fdffdf;
+    background-color: #638d6f; padding: 40px 20px; display: none;}
+
+.map-dot .info h3{font-size: 30px;}
+.map-dot .info p{font-size: 22px; margin-top: 40px;}
+
+.uk .info::before {
+  content: "";
+  position: absolute;
+  left: -7%;
+  bottom: -19%;
+  width: 100px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(-65deg);
+}
+
+.af .info::before {
+  content: "";
+  position: absolute;
+  left: -6%;
+  bottom: -9%;
+  width: 65px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(-65deg);
+}
+
+.aus .info::before {
+  content: "";
+  position: absolute;
+  right: -2%;
+  bottom: -11%;
+  width: 67px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(65deg);
+}
+
+.us .info::before {
+  content: "";
+  position: absolute;   
+  left: -3%;
+  bottom: -16%;
+  width: 95px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(-65deg);
+}
+
+.bra .info::before {
+  content: "";
+  position: absolute;   
+  left: -3%;
+  bottom: -16%;
+  width: 95px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(-65deg);
+}
+
+.ch .info::before {
+  content: "";
+  position: absolute;
+  left: -6%;
+  bottom: -9%;
+  width: 65px;
+  height: 2px;
+  background: #3f5237;
+  transform: rotate(-65deg);
+}
+
+.map-dot:hover {background-color: #D03C0D;}
+.map-dot:hover .info {
+  display: block;}
+
+section.mo-cont4{display: none;}
+
+section.banner .txt-box h2 span{opacity: 0;
+        animation-name: ani1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+}
+
+
+
+@keyframes ani1{form{} to{opacity: 1;}}
+
+
+/* ============================================================================================================================================= */
+
+/* 큰노트북 미디어 쿼리 1289px */
+
+@media (max-width:1289px) {
+
+section.cont4 .cont4-1 h2{ right: 0px; top: 120px; z-index: 1;}
+
+section.cont4 .cont4-1 .map-container{margin-top: -50px;}
+.uk{top: 38%;}
+
+.aus{bottom: 18%;}
+.us{top: 43%;}
+.bra{left: 29%;}
+.ch{top: 46%;}
+
+}
+
+
+/* ================================================================================================================================================= */
+
+/* 테블릿 미디어 쿼리 991px */
+
+@media (max-width:991px) {
+
+.container{padding: 0 40px;}
+
+#pc{display: none;}
+#table{display: block;}
+
+section.banner{height: 50vh; margin-top: 70px;}
+section.banner .imgbox img{width: 100%; height: 50vh;}
+section.banner .txt-box{bottom: 70px; left: 48px; z-index: 10;}
+section.banner .txt-box h2 span{height: 30px;}
+
+/* === 섹션1 ======================================================= */
+section.cont1 .try{left: 40px;top: -193px;
+    border-top: 90px solid #beaba4;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;}
+section.cont1 h2{text-align: right;}
+section.cont1 .img1{width: 80%; margin: auto; opacity: 1;padding-top: 80px;}
+section.cont1 h4{position: static;  line-height: 60px; font-size: 32px; margin-top: 80px;}
+section.cont1 h4 span{font-size: 40px;}
+
+/* ==== 섹션2 =========================================================== */
+section.cont2 .cont2-1{padding-top: 120px; padding-bottom: 0px;}
+section.cont2 .cont2-1 .img1{width: 80%; margin: auto; opacity: 1; padding-top: 80px;}
+section.cont2 .cont2-1 h4{position: static;font-size: 32px; line-height: 60px; text-align: left; margin-top: 80px;}
+section.cont2 .cont2-1 h4 span{font-size: 38px;}
+
+/* ==== 섹션3 =========================================================== */
+section.cont3 .cont3-1{padding-top: 120px; padding-bottom: 150px;}
+section.cont3 .cont3-1 h2{text-align: right;}
+section.cont3 .cont3-1 .img1{width: 80%; margin: auto; opacity: 1; padding-top: 80px;}
+section.cont3 .cont3-1 h4{position: static;font-size: 32px; line-height: 60px; text-align: left; margin-top: 80px;}
+
+/* ==== 섹션4 =============================================================== */
+section.cont4{display: none;}
+section.mo-cont4{display: block; position: relative;}
+section.mo-cont4 .img1{margin-top: -10px;}
+section.mo-cont4 h2{position: absolute; right: 40px; top: 120px; z-index: 1;}
+
+
+section.mo-cont4 .swiper {
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+}
+
+
+section.mo-cont4 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+section.mo-cont4 .swiper-slide .info{width: 75%; height: 38vh;
+    background-color: #638d6f; color: #fdffdf; text-align: left;
+    margin:0 auto; padding: 40px 50px; margin-top: 80px;}
+
+section.mo-cont4 .swiper-slide .info h3{font-size: 30px;}
+section.mo-cont4 .swiper-slide .info p{font-size: 20px; margin-top: 20px;}
+
+section.mo-cont4 .swiper-button-next::after,
+section.mo-cont4 .swiper-button-prev::after{display: none;}
+
+section.mo-cont4 .swiper-button-next i,
+section.mo-cont4 .swiper-button-prev i{font-size: 80px;}
+
+section.mo-cont4  .swiper-button-next{right: 60px;}
+section.mo-cont4  .swiper-button-prev{left :60px;}
+
+.swiper-button-next, .swiper-button-prev{top: 79%; color: #D03C0D;}
+
+br{display: none;}
+#bb{display: block;}
+
+
+}
+
+/* ================================================================================================================================================= */
+
+/* 핸드폰 미디어 쿼리 767px */
+
+@media (max-width:767px) {
+
+#table{display: none;}
+#phone{display: block;}
+section.banner{ margin-top: 40px;}
+section.banner .txt-box{bottom: 70px; left: 28px;}
+section.banner .txt-box h2 span{width: 110%; height: 20px; bottom: -2px;}
+
+/* ==== 섹션1 =========================================================== */
+section.cont1 .img1{width: 100%;}
+section.cont1 h4{ line-height: 40px; font-size: 20px;}
+section.cont1 h4 span{font-size: 24px;}
+
+/* ==== 섹션2 =========================================================== */
+section.cont2 .cont2-1 .img1{width: 100%;}
+section.cont2 .cont2-1 h4{font-size: 20px; line-height: 40px;}
+section.cont2 .cont2-1 h4 span{font-size: 24px;}
+
+/* ==== 섹션3 =========================================================== */
+section.cont3 .cont3-1{padding-bottom: 100px;}
+section.cont3 .cont3-1 .img1{width: 100%;}
+section.cont3 .cont3-1 h4{font-size: 20px; line-height:40px;}
+
+/* ==== 섹션4 =========================================================== */
+section.mo-cont4 .swiper{margin-top: 80px;}
+
+section.mo-cont4 .swiper-slide .info{height: 32vh; padding: 20px; margin-top: 40px;}
+
+section.mo-cont4 .swiper-slide .info h3{font-size: 24px;}
+section.mo-cont4 .swiper-slide .info p{font-size: 16px;}
+
+section.mo-cont4 .swiper-button-next i,
+section.mo-cont4 .swiper-button-prev i{font-size: 50px;}
+
+section.mo-cont4  .swiper-button-next{right: 15px;}
+section.mo-cont4  .swiper-button-prev{left :15px;}
+
+.swiper-button-next, .swiper-button-prev{top: 73%; color: #D03C0D;}
+
+
+
+
+
+}
+
+/* ================================================================================================================================================= */
+
+/* 작은 핸드폰 400px */
+
+@media (max-width:400px) {
+
+
+section.banner .txt-box h2 span{width: 110%; height: 16px; bottom: -4px;}
+section.mo-cont4 .swiper-slide .info{height: 40vh;}
+.swiper-button-next, .swiper-button-prev{top: 60%; color: #D03C0D;}
+
+}
+
+@media (max-width:360px){
+  section.mo-cont4 .swiper-slide .info{height: 45vh;}
+}
