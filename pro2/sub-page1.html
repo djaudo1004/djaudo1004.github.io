@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/469f777957.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub-page1.css">
+<link rel="icon" href="img/main/fabicon.png">
+<title>About Us</title>
+<style>
+</style>
+</head>
+<body>
+
+<main>
+<!-- common -->
+    <!-- pc용 헤더 -->
+    <header id="header">
+        <div class="menu flex-box container1" id="menu">
+            <div class="logo" id="logo"><a href="index.html"><img src="img/main/logo-long3.png" alt="로고"></a></div>
+
+            <div class="right-menu" >
+
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <ul class="flex-box menuu" >
+                    <li><a href="sub-page1.html">About Us</a></li>
+                    <li><a href="sub-page2.html">Our Campaigns</a></li>
+                    <li><a href="javascript:void(0)">Latest news & Blogs</a></li>
+                    <li><a href="sub-page3.html">Contact us</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 모바일용 헤더 -->
+    <header id="mo">
+            <div class="mo-header">
+                <div class="mo-top flex-box">
+                    <div class="mo-logo"><a href="index.html"><img src="img/main/logo-long3.png" alt="로고"></a></div>
+                    <div class="mo-bt"><span></span></div>
+                </div>
+        
+            <div class="mo-menu">
+                    <ul>
+                            <li class="top"><a href="javascript:void(0)">About Us</a>
+                                <ul class="sub-menu">
+                                    <li data-href="sub-page1.html">문의하기</li>
+                                    <li data-href="sub-page1.html">후원금 사용</li>
+                                    <li data-href="sub-page1.html">대표소개</li>
+                                    <li data-href="sub-page1.html">팟캐스트</li>
+                                    <li data-href="sub-page1.html">공급업체</li>
+                                    <li data-href="sub-page1.html">75주년 기념</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="javascript:void(0)">Our Campaigns</a>
+                                <ul class="sub-menu">
+                                    <li data-href="sub-page2.html">야생동물</li>
+                                    <li data-href="sub-page2.html">식품시스템</li>
+                                    <li data-href="sub-page2.html">동물 감각·의식</li>
+                                    <li data-href="sub-page2.html">지난 캠페인</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="javascript:void(0)">Latest news & Blogs</a>
+                                <ul class="sub-menu">
+                                    <li>뉴스</li>
+                                    <li>블로그</li>
+                                    <li>보도자료</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="sub-page3.html">Contact us</a></li>
+                    </ul>
+        
+                    <div><img src="img/main/main-menu-back.jpg" alt="배경"></div>
+            </div>
+        
+                
+            </div>
+    </header>
+
+    <!-- 고정버튼 -->
+    <div class="bt-box">
+
+        <div class="bt">
+            <div class="bt-cont1">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <p>기부하기</p>
+            </div>
+        </div>
+
+        <div class="bt">
+            <div class="bt-cont1">
+                <i class="fa-solid fa-handshake"></i>
+                <p>함께하기</p>
+            </div>
+        </div>
+
+        <div class="bt" id="topBtn">
+            <a  href="#">
+                <div class="bt-cont1">
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p>TOP</p>
+                </div>
+            </a>
+        </div>
+        
+    </div>
+<!-- common end -->
+
+
+
+<section class="banner">
+    <div class="txt-box">
+        <h2>About Us <span></span></h2>
+    </div>
+    <div class="imgbox">
+        <img src="img/sub-page1/subpage1-banner-copy1.jpg" alt="배너" id="pc">
+        <img src="img/sub-page1/subpage1-banner-table.jpg" alt="배너" id="table">
+        <img src="img/sub-page1/subpage1-banner-phone.jpg" alt="배너" id="phone">
+    </div>
+</section>
+
+<section class="cont1">
+    <div class="container cont1-1">
+            <h2  data-aos="fade-left" data-aos-duration="1000">Who We Are</h2>
+            <div class="img1" data-aos="zoom-in-left" data-aos-duration="2000"><img src="img/sub-page1/section1-1.png" alt="동물구조"></div>
+            <h4 data-aos="fade-left" data-aos-duration="2000">
+                우리는<br id="bb">
+                <span>World Animal Protection</span><br>입니다. <br>
+                <br>
+                동물이 더 이상<br>
+                고통받지 않는 세상을 위해 노력하는 단체입니다.<br>
+                동물도 아픔과 두려움,<br>
+                기쁨을 느끼는 존재입니다<br>
+                그럼에도 수많은 동물들이<br>
+                여전히 매일 고통 속에  살아가고 있습니다.<br>
+            </h4>
+        <div class="try"></div>
+    </div>
+
+    <div class="back"><img src="img/sub-page1/section-bottom1.png" alt="밑바탕"></div>
+</section>
+
+
+<section class="cont2">
+    <div class="container cont2-1">
+            <h2 data-aos="fade-right" data-aos-duration="1000">World Animal Protection: <br id="bb">
+                Our Journey for Animals</h2>
+            <div class="img1" data-aos="zoom-in-right" data-aos-duration="2000"><img src="img/sub-page1/section1-2.png" alt="코끼리"></div>
+                <h4  data-aos="fade-right" data-aos-duration="2000">
+                        이전엔 “<span>세계동물보호협회(WSPA)</span>” 라는 <br>
+                        이름으로 30년간 활동했으나,<br>
+                        2014년에 우리의 사명과 함께 브랜드를<br>
+                        발전시키기 위해 이름을 바꾸었습니다<br>
+                        새로운 이름인<br>
+                        ‘World Animal Protection’<br>
+                        우리가 어떤 단체이고 <br>
+                        무엇을 지지하는지 쉽고 명확하게 보여줘요. <br>
+                </h4>
+    </div>
+
+    <div class="back"><img src="img/sub-page1/section-bottom2.png" alt="밑바탕"></div>
+</section>
+
+<section class="cont3">
+    <div class="container cont3-1">
+            <h2 data-aos="fade-left" data-aos-duration="1000">Support us</h2>
+            <div class="img1" data-aos="zoom-in-left" data-aos-duration="2000"><img src="img/sub-page1/section1-3.png" alt="동물과함께"></div>
+                <h4 data-aos="fade-left" data-aos-duration="2000">
+                    세상 모든 동물이 고통받지 않고 <br>
+                    자유롭게 살아갈 수 있도록, <br>
+                    World Animal Protection은 <br>
+                    70년 넘게 이들의 곁을 지켜왔습니다. <br>
+                    
+                    이제, 이 뜻깊은 싸움에 당신의 힘이 필요합니다. <br>
+                    우리가 함께한다면, <br>
+                    더 많은 동물이 안전하고 <br>
+                    행복한 삶을 누릴 수 있습니다. <br>
+
+                    당신의 따뜻한 관심과 참여는 <br>
+                    동물들의 오늘을 바꾸고, <br>
+                    더 밝은 내일을 선물할 거예요. <br>
+                </h4>
+    </div>
+
+</section>
+
+<section class="cont4">
+    <div class="img1"><img src="img/sub-page1/section-bottom3.png" alt="바탕"></div>
+
+    <div class="cont4-1 container">
+        <h2  data-aos="fade-right" data-aos-duration="1000">Contact Us</h2>
+        <div class="map-container">
+            <img src="img/sub-page1/sub-page-section5.png" alt="세계지도"class="img2">
+
+            <!-- 점 -->
+            <div class="map-dot uk">
+
+                <div class="info">
+
+                    <h3>International</h3>
+                    <p>126 Fairlie Road, Slough, SL1 4PY, UK <br>
+                        T: +44 (0)20 7239 0500 <br>
+                        E: info@worldanimalprotection.org <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+            <div class="map-dot ch">
+
+                <div class="info">
+
+                    <h3>China</h3>
+                    <p>501A, Dongwai Diplomatic Office Building, No.23 <br>
+                        Dongzhimen Wai Avenue, Chaoyang District, Beijing,<br>
+                        100600, China<br>
+                        T: +86 (0)10 8532 4211 // F: +86 (0)10 8532 5211<br>
+                        E: info@worldanimalprotection.org.cn <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+            <div class="map-dot af">
+
+                <div class="info">
+
+                    <h3>Africa</h3>
+                    <p>Westside Tower, 9th Floor - No. 901,<br>
+                        Lower Kabete Road, Westlands,<br>
+                        off Brookside Roundabout.<br>
+                        P.O Box 66580-00800, Nairobi, Kenya <br>
+                        T: +254 (0)20 217 6598 or +254 (0)72 715 3574 <br>
+                        E: africaenquiries@worldanimalprotection.org <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+            <div class="map-dot aus">
+
+                <div class="info">
+
+                    <h3>Australia</h3>
+                    <p>Suite 5.03, L5, Building B, 207 <br>
+                        Pacific Highway St Leonards NSW Australia 2065 <br>
+                        T: +61 (0)2 9902 8000 // F: +61 (0)2 9906 1166 <br>
+                        E: info@worldanimalprotection.org.au <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+            <div class="map-dot us">
+
+                <div class="info">
+
+                    <h3>United States</h3>
+                    <p>535 8th Ave, 3rd floor, New York, NY 10018, USA <br>
+                        T: +1 (0)646 783 2200 // F: +1 (0)212 564 4250 <br>
+                        E: info@worldanimalprotection.us <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+            <div class="map-dot bra">
+
+                <div class="info">
+
+                    <h3>Brazil</h3>
+                    <p>Rua Vergueiro, 875, Sala 93, São Paulo (SP), Brasil<br>
+                        T: +55 (0)11 2344 3777 // CEP : 01504-001<br>
+                        E: contato@worldanimalprotection.org.br <br>
+                    </p>
+                </div><!-- info end -->
+
+            </div> <!-- dot end -->
+
+
+
+        </div><!-- map-container end -->
+
+    </div><!-- cont4-1 end -->
+</section>
+
+<!-- 모바일용 세계지도 -->
+<section class="mo-cont4">
+    <div class="img1"><img src="img/sub-page1/section-bottom3.png" alt="바탕"></div>
+
+    <h2>Contact Us</h2>
+
+        <!-- Swiper -->
+    <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/section4-uk.png" alt="uk"></div>
+                        <div class="info">
+                                <h3>International</h3>
+                                <p>126 Fairlie Road, Slough, SL1 4PY, UK <br>
+                                    T: +44 (0)20 7239 0500 <br>
+                                    E: info@<br id="bb">worldanimalprotection.org
+                                </p>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/section5-ch.png" alt="ch"></div>
+                        <div class="info">
+                                <h3>China</h3>
+                                <p>501A, Dongwai Diplomatic Office Building, No.23 <br>
+                                    Dongzhimen Wai Avenue, Chaoyang District, Beijing,<br>
+                                    100600, China<br>
+                                    T: +86 (0)10 8532 4211 <br>
+                                    F: +86 (0)10 8532 5211<br>
+                                    E: info@<br id="bb">worldanimalprotection.org.cn <br>
+                                </p>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/section5-af.png" alt="af"></div>
+                        <div class="info">
+                                <h3>Africa</h3>
+                                <p>Westside Tower, 9th Floor - No. 901,<br>
+                                    Lower Kabete Road, Westlands,<br>
+                                    off Brookside Roundabout.<br>
+                                    P.O Box 66580-00800, Nairobi, Kenya <br>
+                                    T: +254 (0)20 217 6598 or +254 (0)72 715 3574 <br>
+                                    E: africaenquiries@<br id="bb">worldanimalprotection.org <br>
+                                </p>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/section5-aus.png" alt="aus"></div>
+                        <div class="info">
+                                <h3>Australia</h3>
+                                <p>Suite 5.03, L5, Building B, 207 <br>
+                                    Pacific Highway St Leonards NSW Australia 2065 <br>
+                                    T: +61 (0)2 9902 8000 <br>
+                                    F: +61 (0)2 9906 1166 <br>
+                                    E: info@<br id="bb">worldanimalprotection.org.au <br>
+                                </p>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/section4-us.png" alt="us"></div>
+                        <div class="info">
+                                <h3>United States</h3>
+                                <p>535 8th Ave, 3rd floor, New York, NY 10018, USA <br>
+                                    T: +1 (0)646 783 2200 <br>
+                                    F: +1 (0)212 564 4250 <br>
+                                    E: info@<br id="bb">worldanimalprotection.us <br>
+                                </p>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="map"><img src="img/sub-page1/sectio4-bra.png" alt="bra"></div>
+                        <div class="info">
+                                <h3>Brazil</h3>
+                                <p>Rua Vergueiro, 875, Sala 93, São Paulo (SP), Brasil<br>
+                                    T: +55 (0)11 2344 3777 <br>
+                                    CEP : 01504-001<br>
+                                    E: contato@<br id="bb">worldanimalprotection.org.br <br>
+                                </p>
+                        </div>
+                    </div>
+
+            </div><!-- swiper-wrapper end -->
+
+            <div class="swiper-button-next"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="swiper-button-prev"><i class="fa-solid fa-angle-left"></i></div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- footer-->
+    <div class="img4">
+        <img src="img/main/footer.jpg" alt="푸터" id="pc1">
+        <img src="img/main/footer.table.jpg" alt="푸터" id="table2">
+    </div>
+<footer>
+    <div class="container">
+                <div class="bt-logo"><img src="img/main/footer-logo.png" alt="로고"></div>
+
+                <div class="txt-box2">
+                    <ul class="flex-box">
+                        <li>법적 정보</li>
+                        <li>쿠키</li>
+                        <li>개인정보 처리방침</li>
+                        <li>현대판 노예 근절 선언문</li>
+                    </ul>
+    
+                    <ul class="flex-box">
+                        <li>기관 소개</li>
+                        <li>문의 하기</li>
+                        <li>채용 정보</li>
+                        <li>보도자료 센터</li>
+                    </ul>
+    
+                    <ul class="flex-box">
+                        <li>소셜 미디어</li>
+                        <li><i class="fa-brands fa-square-facebook"></i></li>
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                        <li><i class="fa-brands fa-square-youtube"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                    </ul>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="txt3">
+                    <p>World Animal Protection,<br> a Company Limited by Guarantee in England and Wales, Registration No. 4029540. Registered</p>
+                    <p>Charity 1081849.</p>
+                </div>
+    </div>
+</footer>
+<!-- footer end -->
+</main>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+        var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },loop: true,
+        });
+</script>
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+
+  AOS.init({ disable: 'mobile'});
+
+ </script>
+
+</body>
+</html>

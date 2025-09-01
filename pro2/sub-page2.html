@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/469f777957.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub-page2.css">
+<link rel="icon" href="img/main/fabicon.png">
+<title>Our Campaings</title>
+<style>
+</style>
+</head>
+<body>
+<!-- common -->
+    <!-- pc용 헤더 -->
+    <header id="header">
+        <div class="menu flex-box container1" id="menu">
+            <div class="logo" id="logo"><a href="index.html"><img src="img/main/logo-long3.png" alt="로고"></a></div>
+
+            <div class="right-menu" >
+
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <ul class="flex-box menuu" >
+                    <li><a href="sub-page1.html">About Us</a></li>
+                    <li><a href="sub-page2.html">Our Campaigns</a></li>
+                    <li><a href="javascript:void(0)">Latest news & Blogs</a></li>
+                    <li><a href="sub-page3.html">Contact us</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 모바일용 헤더 -->
+    <header id="mo">
+            <div class="mo-header">
+                <div class="mo-top flex-box">
+                    <div class="mo-logo"><a href="index.html"><img src="img/main/logo-long3.png" alt="로고"></a></div>
+                    <div class="mo-bt"><span></span></div>
+                </div>
+        
+            <div class="mo-menu">
+                    <ul>
+                            <li class="top"><a href="javascript:void(0)">About Us</a>
+                                <ul class="sub-menu">
+                                    <li data-href="sub-page1.html">문의하기</li>
+                                    <li data-href="sub-page1.html">후원금 사용</li>
+                                    <li data-href="sub-page1.html">대표소개</li>
+                                    <li data-href="sub-page1.html">팟캐스트</li>
+                                    <li data-href="sub-page1.html">공급업체</li>
+                                    <li data-href="sub-page1.html">75주년 기념</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="javascript:void(0)">Our Campaigns</a>
+                                <ul class="sub-menu">
+                                    <li data-href="sub-page2.html">야생동물</li>
+                                    <li data-href="sub-page2.html">식품시스템</li>
+                                    <li data-href="sub-page2.html">동물 감각·의식</li>
+                                    <li data-href="sub-page2.html">지난 캠페인</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="javascript:void(0)">Latest news & Blogs</a>
+                                <ul class="sub-menu">
+                                    <li>뉴스</li>
+                                    <li>블로그</li>
+                                    <li>보도자료</li>
+                                </ul>
+                            </li>
+            
+                            <li class="top"><a href="sub-page3.html">Contact us</a></li>
+                    </ul>
+        
+                    <div><img src="img/main/main-menu-back.jpg" alt="배경"></div>
+            </div>
+        
+                
+            </div>
+    </header>
+
+    <!-- 고정버튼 -->
+    <div class="bt-box">
+
+        <div class="bt">
+            <div class="bt-cont1">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <p>기부하기</p>
+            </div>
+        </div>
+
+        <div class="bt">
+            <div class="bt-cont1">
+                <i class="fa-solid fa-handshake"></i>
+                <p>함께하기</p>
+            </div>
+        </div>
+
+        <div class="bt" id="topBtn">
+            <a  href="#">
+                <div class="bt-cont1">
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p>TOP</p>
+                </div>
+            </a>
+        </div>
+        
+    </div>
+
+<!-- common end -->
+
+    <section class="banner">
+
+            <div class="txt-box">
+                <h2>Our Campaings<span></span></h2>
+            </div>
+
+            <div class="box">
+                <img src="img/sub-page2/sub2-banner-pc.jpg" alt="배너" id="pc">
+                <img src="img/sub-page2/sub2-banner-table.jpg" alt="배너" id="table">
+                <img src="img/sub-page2/sub2-banner-phone.jpg" alt="배너" id="phone">
+            </div>
+            
+    </section>
+
+    <section class="txt container">
+        <h2 data-aos="fade-left" data-aos-duration="1000">Together, We Make Change</h2>
+        <div class="try"></div>
+    </section>
+
+<div id="cont1">
+        <section class="cont1" >
+    
+                <div id="bt-box">
+                        <div class="lable1" id="btn-mo-cont2">Food System</div>
+                        <div class="lable1" id="btn-mo-cont1">Wildlife</div>
+                </div>  <!-- bt-box end -->    
+    
+            <div class="box">
+                <div class="text-box container" data-aos="flip-left" data-aos-duration="1000">
+                    <h2>Wildlife</h2>
+                    <p>자연 속 생명이<br>자유롭게 살아갈 수 있도록</p>
+                </div>
+        
+                <div class="imgbox">
+                    <div class="img1 " id="pc"><img src="img/sub-page2/sub2-section1-pc.png" alt="곰 이미지" ></div>
+                    <div class="img1" id="mo"><img src="img/sub-page2/section1-mo.png" alt="곰 이미지" ></div>
+                    <div class="label" id="back2"><a id="btn-cont1" href="javascript:void(0)">Wildlife</a></div>
+                    <a id="btn-cont2" href="javascript:void(0)">Food System</a><div class="label1" id="back3"><a  href="javascript:void(0)">Food System</a></div>
+                </div>
+    
+            </div><!-- box end -->
+    
+        </section>
+    
+        <section class="cont2">
+                <div class="top container flex-box">
+                    <div class="img5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="img/sub-page2/section1-1.png" alt="야생동물">
+                    </div>
+                    <h2 data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        전 세계 <br>
+                        수십억마리의<br>
+                        야생동물이<br id="bb">
+                        말할 수 없는<br>
+                        고통 속에<br>
+                        살아가고 있습니다<br>
+                    </h2>
+                </div>
+                <h4 class="container" data-aos="fade-down" data-aos-duration="1000">
+                    야생동물은 야생 그대로 <br id="cc"> 자유롭게 살아갈 권리가 있다고 믿습니다<br id="cc"><br>
+                    그들은 인간의 이익을<br>
+                    위한 잔인한 착취에서 보호받아야 하며,<br id="cc"> 두려움 없이, 풍요로운 자연 속에서  온전히 살아갈 수 있어야 합니다.<br id="cc"><br>
+                    <br>
+                    우리는 오늘도 멈추지 않고 행동합니다.<br id="cc"> 야생동물의 삶 더 이상 고통과 학대가 아닌,<br id="cc">자유와 존중으로 채워질 수 있도록 <br>
+                </h4>
+        </section>
+            <div class="back"><img src="img/sub-page2/section1-1back.png" alt="하단이미지"></div>
+    
+        <section class="cont3 container">
+                <h2  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Born to be wild</h2>
+                <h4  data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">야생은 소유가 아닌 공존의 대상입니다</h4>
+        </section>
+    
+        <div class="topimg"><img src="img/sub-page2/section4-back-1.png" alt="상단이미지"></div>
+    
+        <section class="cont4">
+            <div class="flex-box container"  data-aos="fade-right" data-aos-duration="1000" >
+                <div class="txt-box">
+                    <h2>상업적 착취 종식</h2>
+                    <h4>야생동물들이 겪는 아픔<br>
+                        위에서 부당하게 이득을<br id="aa"><br>
+                        취하는 기업들의 감춰진<br>
+                        진실을 우리가 함께<br id="aa"><br>
+                        세상에 드러내고,<br>
+                        그들에 대한 우리의 마음이<br id="aa"><br>
+                        돌아서도록 우리 함께 해요
+                    </h4>
+                </div>
+    
+                <div class="img"><img src="img/sub-page2/section1-2.png" alt="원숭이"></div>
+            </div>
+            <div class="back1"><img src="img/sub-page2/section3-back.png" alt=""></div>
+        </section>
+    
+        <section class="cont5">
+            <div class="flex-box container" data-aos="fade-left" data-aos-duration="1000">
+                <div class="img"><img src="img/sub-page2/section1-3.png" alt="여우"></div>
+    
+                <div class="txt-box">
+                    <h2>야생동물을<br>
+                    위한 새로운 길<br>
+                    </h2>
+                    <h4>
+                        동물을 착취하는<br>
+                        산업에 맞서고,<br id="aa"><br>
+                        잔인함으로부터<br>
+                        야생동물을 지킬<br id="aa"><br>
+                        혁신적인 방법들을<br>
+                        함께 만들어가요.
+                    </h4>
+                </div>
+            </div>
+    
+            <div class="back1"><img src="img/sub-page2/section5-top.png" alt="하단이미지"></div>
+        </section>
+    
+        <section class="cont6">
+            <h2 class="container">Tackling the Roots</h2>
+    
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>상업적 착취 종식</h3>
+                                            <p>야생동물을 이용한<br>
+                                                상업적 행위와<br>
+                                                오락 산업의 잔인함을<br>
+                                                근절하는 것을 목표로 합니다.<br>
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide1-1.jpg" alt="기린"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>전통 의학에서의 이용 중단</h3>
+                                            <p>야생동물의 고통을 야기하는<br>
+                                                전통 아시아 의학에서의<br>
+                                                사용을 중단시킵니다<br>
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide1-3.jpg" alt="코뿔소"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>관광 산업 전환</h3>
+                                            <p> 무감각한 야생동물<br>
+                                                오락 위주의 관광 산업이<br>
+                                                변화하도록 유도합니다.
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide1-2.jpg" alt="곰"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>법적 보호 강화</h3>
+                                            <p>야생동물과 그 서식지가<br>
+                                                법적으로 보호받도록 보장합니다
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide1-4.jpg" alt="호랑이"></div>
+                                    </div>
+    
+    
+    
+                            </div><!-- swiper-wrapper end -->
+    
+                            <div class="swiper-pagination"></div>
+                </div><!-- swiper end  -->
+        </section>
+</div>
+
+<div  id="cont1-1">
+        <section class="cont1">
+    
+                <div id="bt-box">
+                        <div class="lable1" id="btn-mo-cont2-1">Food System</div>
+                        <div class="lable1" id="btn-mo-cont1-1">Wildlife</div>
+                </div>  <!-- bt-box end -->    
+    
+                <div class="box">
+                    <div class="text-box container"  data-aos="flip-left" data-aos-duration="1000">
+                        <h2>Food System</h2>
+                        <p>동물의 삶도<br>
+                            존중받는 사회가 될 수 있도록</p>
+                    </div>
+            
+                    <div class="imgbox">
+                        <div class="img1 " id="pc"><img src="img/sub-page2/sub2-section2-pc.png" alt="소" ></div>
+                        <div class="img1" id="mo"><img src="img/sub-page2/section2-mo.png" alt="소" ></div>
+                        <div class="label" id="back" ><a id="btn-cont1-1" href="javascript:void(0)">Wildlife</a></div>
+                        <a id="btn-cont2-1" href="javascript:void(0)">Food System</a><div class="label1" id="back1"><a href="javascript:void(0)">Food System</a></div>
+                    </div>
+            </div><!-- box end -->
+    
+        </section>
+    
+        <section class="cont2">
+                    <div class="top container flex-box">
+                        <div class="img5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img src="img/sub-page2/section2-1.png" alt="가축동물"></div>
+                        <h2 data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            농장 동물 복지,<br><br id="bb">
+                            이제 우리의<br>
+                            사랑으로 영원히<br>
+                            보듬어줄<br>
+                            시간입니다<br>
+                        </h2>
+                    </div>
+                    <h4 class="container"  data-aos="fade-down" data-aos-duration="1000">
+                        전 세계 농장동물에 대한 인식과 처우가<br><br id="cc">
+                        근본적으로 바뀌어야 한다고 생각합니다.<br><br id="cc">
+                        <br><br id="cc">
+                        지속 가능하고 공정한 식탁 위에는<br id="cc"> 동물과 자연을 존중하는 가치가 중심이 되어야 합니다.<br id="cc"> 이건 우리 모두가 함께 책임져야 할 일입니다.<br><br id="cc">
+                        농장동물은 지금도 끝없는 고통 속에 있습니다.<br id="cc"> 우리는 이 문제를 해결하기 위해,<br id="cc"> 전 세계적 해법을 만들어가고 있습니다.<br>
+                    </h4>
+        </section>
+            <div class="back"><img src="img/sub-page2/section1-1back.png" alt="하단이미지"></div>
+    
+        <section class="cont3 container">
+                    <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Break the cycle of suffering</h2>
+                    <h4 data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">고통의 반복을 이제는 끊어야 합니다</h4>
+        </section>
+    
+        <div class="topimg"><img src="img/sub-page2/section1-2top.png" alt="상단이미지"></div>
+    
+        <section class="cont4">
+                <div class="flex-box container"  data-aos="fade-right" data-aos-duration="1000">
+                    <div class="txt-box">
+                        <h2>멈춰야 할 공장식 축산</h2>
+                        <h4>공장식 축산은<br>
+                            전 세계적인 문제이며,<br><br id="aa">
+                            전 세계적인 해결이 필요합니다.<br><br id="aa">동물의 고통은 물론,<br>
+                            기후위기·건강·환경까지<br><br id="aa">
+                            위협하고 있기에<br id="ee"> 지금 멈춰야 합니다.<br>
+                        </h4>
+                    </div>
+        
+                    <div class="img"><img src="img/sub-page2/section2-2.png" alt="닭"></div>
+                </div>
+    
+            <div class="back1"><img src="img/sub-page2/section3-back.png" alt=""></div>
+        </section>
+    
+        <section class="cont5">
+                <div class="flex-box container"  data-aos="fade-left" data-aos-duration="1000">
+                    <div class="img"><img src="img/sub-page2/section2-3.png" alt="소"></div>
+        
+                    <div class="txt-box">
+                        <h2>가축 동물을<br>
+                            위한 새로운 길
+                        </h2>
+                        <h4>
+                            더 나은 내일을 위해,우리는<br><br id="aa">
+                            가축들이 존중받고 행복하게<br><br id="aa">
+                            살 수 있는 세상을 만들어갑니다.<br><br id="aa">
+                            지속 가능한 농업과 <br>
+                            인도적 대안을 통해<br><br id="aa">
+                            모두가 함께 성장하는<br>
+                            미래를 꿈꿉니다.<br><br id="aa">
+                        </h4>
+                    </div>
+                </div>
+    
+            <div class="back1"><img src="img/sub-page2/section5-top.png" alt="하단이미지"></div>
+        </section>
+    
+        <section class="cont6">
+            <h2 class="container">Tackling the Roots</h2>
+    
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>농장 동물 복지 개선</h3>
+                                            <p>식품 산업과 협력하여 동물<br>
+                                                복지를 향상시키고,<br>
+                                                동물들이 삶의 가치를<br>
+                                                누릴 수 있는 환경을<br>
+                                                제공합니다. <br>
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide2-1.jpg" alt="닭"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>사료 무역</h3>
+                                            <p>잔인한 공장식 축산의 급증은<br>
+                                            가축과 야생 동물 모두에게<br>
+                                            심각한 피해를 줍니다.<br>
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide2-2.jpg" alt="돼지"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>육류 소비 줄이기</h3>
+                                            <p>동물의 고통을 줄이고<br>
+                                                지구를 보호하기 위해<br>
+                                                동물성 제품 소비를<br>
+                                                줄이도록 장려합니다.
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide2-3.jpg" alt="양"></div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="txtbox">
+                                            <h3>인도적 도축 촉진</h3>
+                                            <p>동물 학대와 고통을<br>
+                                                줄이기 위한 인도적<br>
+                                                도축 방식을 촉진합니다.
+                                            </p>
+                                        </div>
+                                        <div class="img"><img src="img/sub-page2/slide2-4.jpg" alt="양때"></div>
+                                    </div>
+    
+                            </div><!-- swiper-wrapper end -->
+    
+                            <div class="swiper-pagination"></div>
+                </div><!-- swiper end  -->
+        </section>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer-->
+    <div class="img4">
+        <img src="img/main/footer.jpg" alt="푸터" id="pc1">
+        <img src="img/main/footer.table.jpg" alt="푸터" id="table2">
+    </div>
+<footer>
+    <div class="container">
+                <div class="bt-logo"><img src="img/main/footer-logo.png" alt="로고"></div>
+
+                <div class="txt-box2">
+                    <ul class="flex-box">
+                        <li>법적 정보</li>
+                        <li>쿠키</li>
+                        <li>개인정보 처리방침</li>
+                        <li>현대판 노예 근절 선언문</li>
+                    </ul>
+    
+                    <ul class="flex-box">
+                        <li>기관 소개</li>
+                        <li>문의 하기</li>
+                        <li>채용 정보</li>
+                        <li>보도자료 센터</li>
+                    </ul>
+    
+                    <ul class="flex-box">
+                        <li>소셜 미디어</li>
+                        <li><i class="fa-brands fa-square-facebook"></i></li>
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                        <li><i class="fa-brands fa-square-youtube"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                    </ul>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="txt3">
+                    <p>World Animal Protection,<br> a Company Limited by Guarantee in England and Wales, Registration No. 4029540. Registered</p>
+                    <p>Charity 1081849.</p>
+                </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/sub-page2.js"></script>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 40,
+              autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        loop: true,
+        breakpoints : {
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+        },
+    });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ disable: 'mobile'});
+</script>
+</body>
+</html>
