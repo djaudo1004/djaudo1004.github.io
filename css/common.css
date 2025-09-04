@@ -80,7 +80,7 @@ section.cont3 .cont3-1 h2{
     position: absolute;z-index: 5; top: 5%; left: 8%; font-size: 80px;}
 
 section.cont3 .cont3-1 .cont3-2{position: absolute; z-index: 2; cursor: pointer; width: 300px;}
-section.cont3 .cont3-1 .cont3-2 img{width: 100%; border-radius: 50%; color:rgba(255, 215, 83, 0.781);
+section.cont3 .cont3-1 .cont3-2 img{width: 85%; border-radius: 50%; color:rgba(255, 215, 83, 0.781);
 box-shadow: 0 0 20px 3px; filter: brightness(70%);}
 
 section.cont3 .cont3-1 .cont3-2 img:hover{filter: brightness(100%);
@@ -106,13 +106,17 @@ section.cont3 .cont3-1 .cont3-2 p{font-size: 30px;text-align: center; margin-top
 
 #cont10{right: 40%; bottom: 5%;}
 
+#cont11{top: 16%; left: 30%; }
+#cont11 img{width: 60%;}
+#cont11 p{width: 60%; font-size: 28px;}
+
 /* ---------------------------------------------------------------------------------------------- */
 section.cont4{margin-top: 80px; background-color: #161527;}
 section.cont4 h2{font-size: 80px; text-align: right;}
 section.cont4 .cont4-1{margin-top: 80px;}
 section.cont4 .cont4-1.flex-box{justify-content: center;}
 
-section.cont4 .cont4-1 .box2{padding: 10px 100px;}
+section.cont4 .cont4-1 .box2{padding: 10px 100px; cursor: pointer;}
 section.cont4 .cont4-1 .box2 img{width: 100%; border-radius: 50%; color:rgba(255, 215, 83, 0.781);
 box-shadow: 0 0 20px 3px;filter: brightness(70%);}
 section.cont4 .cont4-1 .box2 img:hover{filter: brightness(100%);
@@ -221,6 +225,10 @@ section.cont3 .cont3-1 .cont3-2 p{font-size: 26px; width: 75%;}
 
 #cont7{left: 15%; bottom: 0%;}
 
+#cont11{top: 16%; left: 37%; }
+#cont11 p{width: 60%; font-size: 26px;}
+
+
 /* ------------------------------------------------------------- */
 
 section.cont4 h2{font-size: 70px; margin-right: 120px;}
@@ -305,6 +313,8 @@ section.cont3 .cont3-1 h2{position: static;font-size: 60px; text-align: center; 
 section.cont3 .cont3-1 .cont3-2{position: static; cursor: pointer;}
 
 #cont6 p{text-align: center;}
+#cont11 img{width: 100%;}
+#cont11 p{width: 100%; font-size: 30px;}
 
 /* ----------------------------------------------------------------- */
 section.cont4{height: 100%;}
